@@ -85,7 +85,7 @@ const Products = () => {
   return (
     <div className="py-10">
     <div className="flex justify-between">
-        <h1 className="font-bold text-2xl ml-10">New"500"</h1>
+        <h1 className="font-bold text-2xl ml-10">New&apos;500&apos;</h1>
         <Image src='/Auto Layout Horizontal.svg' alt="Layout Picture" width={250} height={250}/>
         </div>
 
@@ -162,13 +162,13 @@ const Products = () => {
             <button className="bg-[#FFFFFF] text-[#111111] border rounded-full w-[160] h-[34]">Best Shoes</button>
             <button className="bg-[#FFFFFF] text-[#111111] border rounded-full w-[160] h-[34]">New Basktball Shoes</button>
             <button className="bg-[#FFFFFF] text-[#111111] border rounded-full w-[160] h-[34]">New Football Shoes</button>
-            <button className="bg-[#FFFFFF] text-[#111111] border rounded-full w-[160] h-[34]">New Men's Shoes</button>
+            <button className="bg-[#FFFFFF] text-[#111111] border rounded-full w-[160] h-[34]">New Men&apos;s Shoes</button>
             <button className="bg-[#FFFFFF] text-[#111111] border rounded-full w-[160] h-[34]">New Running Shoes</button>
-            <button className="bg-[#FFFFFF] text-[#111111] border rounded-full w-[160] h-[34]">Best Men's Shoes</button>
+            <button className="bg-[#FFFFFF] text-[#111111] border rounded-full w-[160] h-[34]">Best Men&apos;s Shoes</button>
         </div>
         <div className="flex space-x-8 ml-24 mt-5">
             <button className="bg-[#FFFFFF] text-[#111111] border rounded-full w-[160] h-[34]">New Jordan Shoes</button>
-            <button className="bg-[#FFFFFF] text-[#111111] border rounded-full w-[160] h-[34]">Best Women's Shoes</button>
+            <button className="bg-[#FFFFFF] text-[#111111] border rounded-full w-[160] h-[34]">Best Women&apos;s Shoes</button>
             <button className="bg-[#FFFFFF] text-[#111111] border rounded-full w-[160] h-[34]">Best Training & Gym</button>
         </div>
         </div>

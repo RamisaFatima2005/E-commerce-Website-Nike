@@ -26,11 +26,11 @@ export default function Help() {
                 <br/>
                 Visa, Mastercard, Diners Club, Discover, American Express, Visa Electron, Maestro
                 <br/>
-                 If you enter your PAN information at checkout, you'll be able to pay for your order with PayTM or a local credit or debit card.
+                 If you enter your PAN information at checkout, you&apos;ll be able to pay for your order with PayTM or a local credit or debit card.
                  <br/>
                  Apple Pay
                  <br/>
-                 <u className='text-[#111111] font-semibold'>Nike Members</u> can store multiple debit or credit cards in their profile for faster checkout. If you're not already a Member, join us today.
+                 <u className='text-[#111111] font-semibold'>Nike Members</u> can store multiple debit or credit cards in their profile for faster checkout. If you&apos;re not already a Member, join us today.
                 </p>
                 <br />
                 <button onClick={()=>route.push("/products")} className='bg-[#111111] text-white rounded-full w-36 h-10'>Join Us</button>
@@ -45,15 +45,15 @@ export default function Help() {
             </p>
             <br/>
             <h3 className='text-[#111111] font-semibold'>Can I pay for my order with multiple methods?</h3>
-            <p className='text-[#111111]'>No, payment for Nike orders can't be split between multiple payment methods.</p>
+            <p className='text-[#111111]'>No, payment for Nike orders can&apos;t be split between multiple payment methods.</p>
             <br/>
 
             <h3 className='text-[#111111] font-semibold'>What payment method is accepted for SNKRS orders?</h3>
             <p className='text-[#111111]'>You can use any accepted credit card to pay for your SNKRS order.</p>
 
             <br/>
-            <h3 className='text-[#111111] font-semibold'>Why don't I see Apple Pay as an option?</h3>
-            <p className='text-[#111111]'>To see Apple Pay as an option in the Nike App or on Nike.com, you'll need to use a compatible Apple device running the latest OS, be signed in to your iCloud account and have a supported card in your Wallet. Additionally, you'll need to use Safari to use Apple Pay on Nike.com.</p>
+            <h3 className='text-[#111111] font-semibold'>Why don&apos;t I see Apple Pay as an option?</h3>
+            <p className='text-[#111111]'>To see Apple Pay as an option in the Nike App or on Nike.com, you&apos;ll need to use a compatible Apple device running the latest OS, be signed in to your iCloud account and have a supported card in your Wallet. Additionally, you&apos;ll need to use Safari to use Apple Pay on Nike.com.</p>
             <br/>
 
             <p className='text-[#111111]'>Was this answer helpful?</p>
@@ -61,7 +61,7 @@ export default function Help() {
             <h4 className='text-[#757575]'>RELATED</h4>
             <br/>
 
-            <p className='text-[#111111] font-semibold'><u>WHAT ARE NIKE'S DELIVERY OPTIONS?</u></p>
+            <p className='text-[#111111] font-semibold'><u>WHAT ARE NIKE&apos;S DELIVERY OPTIONS?</u></p>
             <br/>
             <p className='text-[#111111] font-semibold'><u>HOW DO I GET FREE DELIVERY ON NIKE ORDERS?</u></p>
             <br/>
@@ -87,7 +87,7 @@ export default function Help() {
       <br />
       <br />
       <Image src="/mail.svg" alt='contact' width={100} height={100} className='ml-14'/>
-      <p className='text-[#111111]'>We'll reply within
+      <p className='text-[#111111]'>We&apos;ll reply within
         <br />
       five business days</p>
       <br />

@@ -65,16 +65,16 @@ export default function Essentials() {
 
                 <div className='w-52'>
                     <ul>
-                        <h4 className='text-[#111111] font-semibold'>Kid's</h4>
+                        <h4 className='text-[#111111] font-semibold'>Kid&apos;s</h4>
                         <br/>
                         <br/>
                         <li className='text-[#757575] font-medium'>Infant & Toddler Shoes</li>
                         <br/>
-                        <li className='text-[#757575] font-medium'>Kids' Shoes</li>
+                        <li className='text-[#757575] font-medium'>Kid&apos;s Shoes</li>
                         <br/>
-                        <li className='text-[#757575] font-medium'>Kids' Jordan Shoes</li>
+                        <li className='text-[#757575] font-medium'>Kid&apos;s Jordan Shoes</li>
                         <br/>
-                        <li className='text-[#757575] font-medium'>Kids' Basketball Shoes</li>
+                        <li className='text-[#757575] font-medium'>Kid&apos;s Basketball Shoes</li>
                     </ul>
                 </div>
             </div>

@@ -1,5 +1,4 @@
 "use client";
-import { useRouter } from "next/navigation";
 import { use } from "react";
 import Image from "next/image";
 import productsdetail from "@/data/products";
@@ -7,7 +6,6 @@ import { useCart } from "@/app/context/page";
 
 const ProductDetailPage = ({ params }: { params: Promise<{ id: string }> }) => {
     const resolvedParams = use(params);
-    const route = useRouter();
     const { addToCart } = useCart(); 
     const prod = productsdetail.find((p) => p.id === resolvedParams.id);
 

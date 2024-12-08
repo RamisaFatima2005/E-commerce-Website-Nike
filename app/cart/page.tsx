@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import { useCart } from "../context/page";
 
 const CartPage = () => {
@@ -14,7 +14,7 @@ const CartPage = () => {
                 <ul>
                     {cart.map((item) => (
                         <li key={item.id} className="mb-4 flex items-center space-x-4">
-                            <img src={item.image} alt={item.name} className="w-16 h-16" />
+                            <Image src={item.image} alt={item.name} height={50} width={50} className="w-16 h-16" />
                             <div>
                                 <h2 className="text-lg font-bold">{item.name}</h2>
                                 <p className="text-lg font-medium">{item.description}</p>

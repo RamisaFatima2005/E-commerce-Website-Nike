@@ -11,7 +11,7 @@ export default function Footer() {
                         <br/>
                         <h4 className='text-[#FFFFFF] font-medium ml-32'>ABOUT NIKE</h4>
                         <br/>
-                        <h4 className='text-[#FFFFFF] font-medium ml-44'>Kid's</h4>
+                        <h4 className='text-[#FFFFFF] font-medium ml-44'>Kid&apos;s</h4>
                         <br/>
 
                         <div className=' flex ml-72 space-x-5'>
@@ -69,11 +69,11 @@ export default function Footer() {
                     <ul>
                         <li className='text-[#757575] font-medium'>Infant & Toddler Shoes</li>
                         <br/>
-                        <li className='text-[#757575] font-medium'>Kids' Shoes</li>
+                        <li className='text-[#757575] font-medium'>Kid&apos;s Shoes</li>
                         <br/>
-                        <li className='text-[#757575] font-medium'>Kids' Jordan Shoes</li>
+                        <li className='text-[#757575] font-medium'>Kid&apos;s Jordan Shoes</li>
                         <br/>
-                        <li className='text-[#757575] font-medium'>Kids' Basketball Shoes</li>
+                        <li className='text-[#757575] font-medium'>Kid&apos;s Basketball Shoes</li>
                     </ul>
                 </div>
                 </div>

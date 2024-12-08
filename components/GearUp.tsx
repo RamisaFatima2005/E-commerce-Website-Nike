@@ -55,11 +55,11 @@ const GearUp= () => {
       <p className='text-[#111111] my-10 mx-6 font-semibold text-2xl'>Gear Up</p>
       
       <div className="flex justify-evenly">
-        <h1 className="font-bold">Shop Men's</h1>
+        <h1 className="font-bold">Shop Men&apos;s</h1>
         <Image src="/Arrowback.svg" alt="BackArrow" width={50} height={50}/>
         <button onClick={()=>route.push("/products")}><Image src="/ForwardArrow.svg" alt="ForwardArrow" width={50} height={50}/></button>
         
-        <h1 className="font-bold">Shop Women's</h1>
+        <h1 className="font-bold">Shop Women&apos;s</h1>
         <Image src="/Arrowback.svg" alt="BackArrow" width={50} height={50}/>
         <button onClick={()=>route.push("/products")}><Image src="/ForwardArrow.svg" alt="ForwardArrow" width={50} height={50}/></button>
       </div>

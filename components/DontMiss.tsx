@@ -8,7 +8,7 @@ export default function DontMiss() {
   const route = useRouter()
   return (
     <div>
-        <h1 className='text-[#111111] my-10 mx-6 font-semibold text-2xl'>Don't Miss</h1>
+        <h1 className='text-[#111111] my-10 mx-6 font-semibold text-2xl'>Don&apos;t Miss</h1>
         <Image src='/DontMiss.svg' alt='DontMiss Picture' width={1400} height={1100} className='m-10'/>
         <div className='justify-center items-center text-center'>
             <h1 className='text-[#111111] text-4xl font-semibold'>FLIGHT ESSENTIALS</h1>

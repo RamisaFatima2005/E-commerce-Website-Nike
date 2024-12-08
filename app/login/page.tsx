@@ -51,7 +51,7 @@ const Login = () => {
         </form>
 
         <p className="text-center text-sm text-gray-600 mt-4">
-          By logging in, you agree to Nike's{" "}
+          By logging in, you agree to Nike&apos;s{" "}
           <a href="#" className="text-black underline">
             Privacy Policy
           </a>{" "}
