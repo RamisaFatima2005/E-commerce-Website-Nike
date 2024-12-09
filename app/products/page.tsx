@@ -154,24 +154,45 @@ const Products = () => {
       </div>
         </div>
         
-        <div>
-            <h1 className="text-[#111111] font-bold text-2xl">Related Categories</h1>
-            <br/>
-        <div className="flex space-x-8 ml-24">
-            <button className="bg-[#FFFFFF] text-[#111111] border rounded-full w-[160] h-[34]">Best Selling Products</button>
-            <button className="bg-[#FFFFFF] text-[#111111] border rounded-full w-[160] h-[34]">Best Shoes</button>
-            <button className="bg-[#FFFFFF] text-[#111111] border rounded-full w-[160] h-[34]">New Basktball Shoes</button>
-            <button className="bg-[#FFFFFF] text-[#111111] border rounded-full w-[160] h-[34]">New Football Shoes</button>
-            <button className="bg-[#FFFFFF] text-[#111111] border rounded-full w-[160] h-[34]">New Men&apos;s Shoes</button>
-            <button className="bg-[#FFFFFF] text-[#111111] border rounded-full w-[160] h-[34]">New Running Shoes</button>
-            <button className="bg-[#FFFFFF] text-[#111111] border rounded-full w-[160] h-[34]">Best Men&apos;s Shoes</button>
-        </div>
-        <div className="flex space-x-8 ml-24 mt-5">
-            <button className="bg-[#FFFFFF] text-[#111111] border rounded-full w-[160] h-[34]">New Jordan Shoes</button>
-            <button className="bg-[#FFFFFF] text-[#111111] border rounded-full w-[160] h-[34]">Best Women&apos;s Shoes</button>
-            <button className="bg-[#FFFFFF] text-[#111111] border rounded-full w-[160] h-[34]">Best Training & Gym</button>
-        </div>
-        </div>
+        <div className="p-4">
+  <h1 className="text-[#111111] font-bold text-2xl text-center sm:text-left">
+    Related Categories
+  </h1>
+  <br />
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 justify-center mt-4">
+    <button className="bg-[#FFFFFF] text-[#111111] border rounded-full px-4 py-2">
+      Best Selling Products
+    </button>
+    <button className="bg-[#FFFFFF] text-[#111111] border rounded-full px-4 py-2">
+      Best Shoes
+    </button>
+    <button className="bg-[#FFFFFF] text-[#111111] border rounded-full px-4 py-2">
+      New Basketball Shoes
+    </button>
+    <button className="bg-[#FFFFFF] text-[#111111] border rounded-full px-4 py-2">
+      New Football Shoes
+    </button>
+    <button className="bg-[#FFFFFF] text-[#111111] border rounded-full px-4 py-2">
+      New Men&apos;s Shoes
+    </button>
+    <button className="bg-[#FFFFFF] text-[#111111] border rounded-full px-4 py-2">
+      New Running Shoes
+    </button>
+    <button className="bg-[#FFFFFF] text-[#111111] border rounded-full px-4 py-2">
+      Best Men&apos;s Shoes
+    </button>
+    <button className="bg-[#FFFFFF] text-[#111111] border rounded-full px-4 py-2">
+      New Jordan Shoes
+    </button>
+    <button className="bg-[#FFFFFF] text-[#111111] border rounded-full px-4 py-2">
+      Best Women&apos;s Shoes
+    </button>
+    <button className="bg-[#FFFFFF] text-[#111111] border rounded-full px-4 py-2">
+      Best Training & Gym
+    </button>
+  </div>
+</div>
+
     </div>
       
   );

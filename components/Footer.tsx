@@ -1,98 +1,100 @@
-import React from 'react'
-import Image from 'next/image'
+import React from "react";
+import Image from "next/image";
 
 export default function Footer() {
   return (
-    <div className='bg-[#111111]'>
-        <div className='flex pt-20'>
-                        <h4 className='text-[#FFFFFF] font-medium ml-10'>Find A STORE</h4>
-                        <br/>
-                        <h4 className='text-[#FFFFFF] font-medium ml-32'>GET HELP</h4>
-                        <br/>
-                        <h4 className='text-[#FFFFFF] font-medium ml-32'>ABOUT NIKE</h4>
-                        <br/>
-                        <h4 className='text-[#FFFFFF] font-medium ml-44'>Kid&apos;s</h4>
-                        <br/>
+    <div className="bg-[#111111] p-6">
+      
+      <div className="flex flex-wrap justify-between items-center pt-10">
+        <div className="flex flex-wrap gap-8">
+          <h4 className="text-[#FFFFFF] font-medium">Find A STORE</h4>
+          <h4 className="text-[#FFFFFF] font-medium">GET HELP</h4>
+          <h4 className="text-[#FFFFFF] font-medium">ABOUT NIKE</h4>
+          <h4 className="text-[#FFFFFF] font-medium">Kid&apos;s</h4>
+        </div>
 
-                        <div className=' flex ml-72 space-x-5'>
-                        <Image src='/twitter.svg' alt='Twitter' width={50} height={50}/>
-                        <Image src='/fb.svg' alt='Facebook' width={50} height={50}/>
-                        <Image src='/youtube.svg' alt='Youtube' width={50} height={50}/>
-                        <Image src='/instagram.svg' alt='Instagram' width={50} height={50}/>
-                        </div>
-                        </div>
-        <div className='flex'>
-                <div className='w-56 mt-10 ml-10'>
-                    <ul>
-                        <li className='text-[#FFFFFF] font-medium'>BECOME A MEMBER</li>
-                        <br/>
-                        <li className='text-[#FFFFFF] font-medium'>SIGN UP FOR EMAIL</li>
-                        <br/>
-                        <li className='text-[#FFFFFF] font-medium'>SEND US FEEDBACK</li>
-                        <br/>
-                        <li className='text-[#FFFFFF] font-medium'>STUDENT DISCOUNTS</li>
-                    </ul>
-                </div>
+        <div className="flex space-x-5 mt-4 sm:mt-0">
+          <Image src="/twitter.svg" alt="Twitter" width={30} height={30} />
+          <Image src="/fb.svg" alt="Facebook" width={30} height={30} />
+          <Image src="/youtube.svg" alt="Youtube" width={30} height={30} />
+          <Image src="/instagram.svg" alt="Instagram" width={30} height={30} />
+        </div>
+      </div>
 
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mt-10">
+        
+        <div>
+          <ul>
+            <li className="text-[#FFFFFF] font-medium">BECOME A MEMBER</li>
+            <li className="text-[#FFFFFF] font-medium mt-4">SIGN UP FOR EMAIL</li>
+            <li className="text-[#FFFFFF] font-medium mt-4">SEND US FEEDBACK</li>
+            <li className="text-[#FFFFFF] font-medium mt-4">STUDENT DISCOUNTS</li>
+          </ul>
+        </div>
 
-                <div className='w-64 mt-10'>
-                    <ul>
-                        <li className='text-[#757575] font-medium'>Order Status</li>
-                        <br/>
-                        <li className='text-[#757575] font-medium'>Delivery</li>
-                        <br/>
-                        <li className='text-[#757575] font-medium'>Returns</li>
-                        <br/>
-                        <li className='text-[#757575] font-medium'>Payment Options</li>
-                        <br/>
-                        <li className='text-[#757575] font-medium'>Contact Us On Nike.com Inquiries</li>
-                        <br/>
-                        <li className='text-[#757575] font-medium'>Contact Us On All Other Inquiries</li>
-                    </ul>
-                </div>
+        
+        <div>
+          <ul>
+            <li className="text-[#757575] font-medium">Order Status</li>
+            <li className="text-[#757575] font-medium mt-4">Delivery</li>
+            <li className="text-[#757575] font-medium mt-4">Returns</li>
+            <li className="text-[#757575] font-medium mt-4">Payment Options</li>
+            <li className="text-[#757575] font-medium mt-4">
+              Contact Us On Nike.com Inquiries
+            </li>
+            <li className="text-[#757575] font-medium mt-4">
+              Contact Us On All Other Inquiries
+            </li>
+          </ul>
+        </div>
 
+        
+        <div>
+          <ul>
+            <li className="text-[#757575] font-medium">News</li>
+            <li className="text-[#757575] font-medium mt-4">Careers</li>
+            <li className="text-[#757575] font-medium mt-4">Investors</li>
+            <li className="text-[#757575] font-medium mt-4">Sustainability</li>
+          </ul>
+        </div>
 
-                <div className='w-28 mt-10'>
-                    <ul>
-                        <li className='text-[#757575] font-medium'>News</li>
-                        <br/>
-                        <li className='text-[#757575] font-medium'>Careers</li>
-                        <br/>
-                        <li className='text-[#757575] font-medium'>Investors</li>
-                        <br/>
-                        <li className='text-[#757575] font-medium'>Sustainability</li>
-                    </ul>
-                </div>
+        
+        <div>
+          <ul>
+            <li className="text-[#757575] font-medium">
+              Infant & Toddler Shoes
+            </li>
+            <li className="text-[#757575] font-medium mt-4">Kid&apos;s Shoes</li>
+            <li className="text-[#757575] font-medium mt-4">
+              Kid&apos;s Jordan Shoes
+            </li>
+            <li className="text-[#757575] font-medium mt-4">
+              Kid&apos;s Basketball Shoes
+            </li>
+          </ul>
+        </div>
+      </div>
 
+      
+      <div className="flex flex-wrap justify-between items-center mt-10">
+        
+        <div className="flex items-center space-x-3">
+          <Image
+            src="/location.svg"
+            alt="Location Icon"
+            width={30}
+            height={30}
+          />
+          <p className="text-white text-sm">India© 2023 Nike, Inc. All Rights Reserved</p>
+        </div>
 
-                <div className='w-52 mt-10 ml-32'>
-                    <ul>
-                        <li className='text-[#757575] font-medium'>Infant & Toddler Shoes</li>
-                        <br/>
-                        <li className='text-[#757575] font-medium'>Kid&apos;s Shoes</li>
-                        <br/>
-                        <li className='text-[#757575] font-medium'>Kid&apos;s Jordan Shoes</li>
-                        <br/>
-                        <li className='text-[#757575] font-medium'>Kid&apos;s Basketball Shoes</li>
-                    </ul>
-                </div>
-                </div>
-
-                <div className='flex justify-between'>
-                <div className='flex justify-start items-start text-start mt-10'>
-                    <Image src="/location.svg" alt='Location Icon' width={50} height={50} className='justify-start'/>
-                    <p className='text-white mt-3'>India© 2023 Nike, Inc. All Rights Reserved</p>
-                </div>
-
-                <div className='flex justify-end items-end mr-12' >
-                    <ul className='flex space-x-10'>
-                        <li className='text-[#7E7E7E]'>Guides</li>
-                        <li className='text-[#7E7E7E]'>Terms Of Sale</li>
-                        <li className='text-[#7E7E7E]'>Terms Of Use</li>
-                        <li className='text-[#7E7E7E]'>Nike Privacy Policy</li>
-                    </ul>
-                </div>
-                </div>
-            </div>
-  )
+        <ul className="flex flex-wrap justify-end space-x-5 text-[#7E7E7E] mt-4 sm:mt-0 text-sm">
+          <li>Guides</li>
+          <li>Terms Of Sale</li>
+          <li>Terms Of Use</li>
+          <li>Nike Privacy Policy</li>
+        </ul>
+      </div>
+    </div>
+  );
 }
