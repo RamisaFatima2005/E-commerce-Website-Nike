@@ -33,7 +33,7 @@
 "use client";
 
 import Image from "next/image";
-import { useCart } from "../context/page";
+import { useCart } from "../context/CartContext";
 
 const CartPage = () => {
   const { cart } = useCart();

@@ -2,7 +2,7 @@
 import { use } from "react";
 import Image from "next/image";
 import productsdetail from "@/data/products";
-import { useCart } from "@/app/context/page";
+import { useCart } from "@/app/context/CartContext";
 
 const ProductDetailPage = ({ params }: { params: Promise<{ id: string }> }) => {
     const resolvedParams = use(params);
