@@ -13,7 +13,7 @@ const Login = () => {
             height={50}
             className="mx-auto w-10 h-10"
           />
-          <h1 className="text-2xl font-semibold mt-4">YOUR ACCOUNT</h1>
+          <h1 className="text-black text-2xl font-semibold mt-4">YOUR ACCOUNT</h1>
           <p className="text-gray-600 text-sm">FOR EVERYTHING NIKE</p>
         </div>
 

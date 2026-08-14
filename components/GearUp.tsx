@@ -72,7 +72,7 @@ const GearUp= () => {
               width={270}
               height={250}
             />
-            <h3 className="font-semibold text-[#111111] text-lg mt-5">{product.title}</h3>
+            <h3 className="font-semibold text-white text-lg mt-5">{product.title}</h3>
             <p className="text-[#757575] font-bold">{product.Category}</p>
             <p className="text-[#757575] font-bold">{product.type}</p>
             <p className="text-[#111111] font-bold">${product.price}</p>

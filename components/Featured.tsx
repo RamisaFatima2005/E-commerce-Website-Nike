@@ -23,10 +23,10 @@ export default function Featured() {
       </div>
 
       <div className="text-center my-10">
-        <h1 className="text-[#111111] font-semibold text-xl sm:text-2xl lg:text-3xl">
+        <h1 className="text-white font-semibold text-xl sm:text-2xl lg:text-3xl">
           STEP INTO WHAT FEELS GOOD
         </h1>
-        <p className="text-[#111111] font-normal text-sm sm:text-base lg:text-lg mt-4">
+        <p className="text-white font-normal text-sm sm:text-base lg:text-lg mt-4">
           Cause everyone should know the feeling of running in that perfect pair.
         </p>
       </div>
